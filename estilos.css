@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  border-radius: 25px;
+}
+
+.textosneon, .local h3, .titulo, .tituloTestimonio, .card-text, .card-title, #quienessomos {
+  text-shadow: 0 0 5px cyan, 0 0 15px cyan, 0 0 25px cyan, 0 0 35px cyan;
+}
+
+#seccionvideo {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  background-image: url(imagenes/fondocelular.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#video1 {
+  border-radius: 5px;
+  border: 5px solid purple;
+}
+
+#quienessomos {
+  text-align: center;
+  align-items: center;
+  margin-bottom: 75px;
+}
+
+.card {
+  margin: 20px;
+  transition: 0.7s;
+  border-radius: 15px;
+  border: 5px solid cyan;
+  box-shadow: inset 0 0 15px cyan, 0 0 15px cyan;
+}
+
+.card-img-top {
+  height: 220px;
+}
+
+.card:hover {
+  transform: scale(1.3);
+}
+
+.testimonios {
+  background-color: white;
+  border: 5px solid black;
+  margin: 20px 150px 150px 150px;
+}
+
+.tituloTestimonio, .card-text, .card-title {
+  text-align: center;
+}
+
+.card-title {
+  color: yellow;
+}
+
+.card-text {
+  color: yellow;
+}
+
+.btn {
+  margin-left: 40px;
+}
+
+.boton {
+  margin-left: 55px;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: purple;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+}
+
+.whatsapp {
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  background-color: white;
+  bottom: 40px;
+  right: 40px;
+  text-align: center;
+  font-size: 25px;
+  line-height: 40px;
+  border: black 3px solid;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 0 10px black, inset 0 0 10px black;
+  text-align: center;
+}
+
+.titulo {
+  text-align: center;
+  margin: auto;
+}
+
+.fondoTitulo {
+  background-color: black;
+  border: 5px solid cyan;
+  border-radius: 10px;
+  box-shadow: inset 0 0 15px cyan, 0 0 15px cyan;
+}
+
+.videoProteccion, .videoReparacion {
+  margin: 15px;
+  height: 70vh;
+  background-image: url(imagenes/celulares.jpg);
+  border: 5px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.video {
+  width: 800px;
+  height: 300px;
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .videoService {
+    width: 400px;
+    height: 250px;
+  }
+  .mapa {
+    width: 400;
+    height: 250;
+  }
+}
+@media screen and (max-width: 350px) {
+  .videoService {
+    width: 250px;
+    height: 150px;
+  }
+  .mapa {
+    width: 250px;
+    height: 150px;
+  }
+}
+.contenedor {
+  display: flex;
+  margin-bottom: 150px;
+}
+
+.formulario {
+  width: 850px;
+}
+
+.local {
+  width: 500px;
+  height: auto;
+  margin-top: 45px;
+  border: 5px solid cyan;
+  border-radius: 15px;
+  box-shadow: 0 0 15px cyan;
+  inset: 0 0 15px cyan;
+  background-color: black;
+}
+
+.local h3 {
+  text-align: center;
+  text-decoration: underline;
+  margin: 40px;
+}
+
+.local p {
+  text-align: center;
+}
+
+footer {
+  border-top: 5px solid cyan;
+  box-shadow: 0 0 25px cyan, inset 0 0 25px cyan;
+}
+
+.listaProductos {
+  margin-bottom: 150px;
+}
+
+.mapa {
+  margin-top: 25px;
+}/*# sourceMappingURL=estilos.css.map */
