@@ -80,7 +80,11 @@ enviarCarro.addEventListener("click", avisar)
 
 
 function avisar() {
-    alert("Su producto fue enviado al carrito de compras")
+    Swal.fire(
+        'Perfecto!',
+        'Añadiste el producto al carrito de compras!',
+        'success'
+    )
 } 
 
 
